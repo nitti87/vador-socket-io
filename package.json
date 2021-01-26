@@ -1,0 +1,24 @@
+{
+  "name": "vador-socket-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "srv.js",
+  "scripts": {
+    "start": "node srv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitti87/vador-socket-io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitti87/vador-socket-io/issues"
+  },
+  "homepage": "https://github.com/nitti87/vador-socket-io#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "socket.io": "^3.1.0"
+  }
+}
