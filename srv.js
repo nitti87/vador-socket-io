@@ -3,5 +3,5 @@ const server = http.createServer().listen(process.env.PORT || 3000, process.env.
 const socketio = require('socket.io')(server)
 
 socketio.on('connection', (socket) => {
-    console.log(socket);
+    console.log(socket.id);
 });
